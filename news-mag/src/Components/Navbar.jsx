@@ -10,22 +10,22 @@ const Navbar = ({setcategory}) => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link" onClick={() => setcategory("technology")}>Technology</a>
+          <a className="nav-link" style={{cursor:"pointer"}} onClick={() => setcategory("technology")}>Technology</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" onClick={() => setcategory("technology")}>Business</a>
+          <a className="nav-link" style={{cursor:"pointer"}} onClick={() => setcategory("technology")}>Business</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" onClick={() => setcategory("health")}>Health</a>
+          <a className="nav-link" style={{cursor:"pointer"}} onClick={() => setcategory("health")}>Health</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" onClick={() => setcategory("sports")}>Sports</a>
+          <a className="nav-link" style={{cursor:"pointer"}} onClick={() => setcategory("sports")}>Sports</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" onClick={() => setcategory("entertainment")}>Entertainment</a>
+          <a className="nav-link" style={{cursor:"pointer"}}  onClick={() => setcategory("entertainment")}>Entertainment</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" onClick={() => setcategory("science")}>Science</a>
+          <a className="nav-link"  style={{cursor:"pointer"}} onClick={() => setcategory("science")}>Science</a>
         </li>
       </ul>
     </div>
