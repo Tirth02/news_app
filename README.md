@@ -1,0 +1,1 @@
+This is Website which fetch news through open apis and display it in frontend
